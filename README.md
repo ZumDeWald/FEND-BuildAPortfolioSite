@@ -6,7 +6,7 @@
   
 ## Contents
 
-  *Index HTML file
-  *3 CSS files (to aid in responsive design)
-  *Images
-  *A JS folder (a home for future JavaScript additions)
+  - Index HTML file
+  - 3 CSS files (to aid in responsive design)
+  - Images
+  - JS folder (a home for future JavaScript additions)
