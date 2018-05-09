@@ -1,0 +1,170 @@
+/* CSS for Portfolio Site
+ color guide:
+  Blue = #02b3e4
+  Black = #2d3c49
+  Grey = #7d97ad
+
+*/
+
+/* General Style Applications  */
+
+body {
+  font-family: "Roboto", sans-serif, arial;
+}
+
+/* Oversizing catch-all */
+
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
+/* Remove underline from links */
+
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/*  HEADER  */
+
+.header-top {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid #7d97ad;
+}
+
+.udacity-logo-header {
+  width: 40%;
+  max-width: 80px;
+  height: 80px;
+  padding: 0.8em 0 0.8em 0.2em;
+}
+
+.header-name-and-sub {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 60%;
+  line-height: 1.5em;
+  padding: 0 0.2em 0 0;
+}
+
+.header-name {
+  font-size: 2em;
+  color: #2d3c49;
+  font-weight: 100;
+  margin: 0.5em 0 0 0;
+}
+
+.header-sub {
+  font-size: 0.9em;
+  font-weight: 400;
+  color: #2d3c49;
+}
+
+
+/* MAIN  */
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.hero-top {
+  width: 100%;
+  height: auto;
+  margin: 0.9em 0 0 0;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.photo-credit {
+  width: 100%;
+  padding: 0.3em 0 0.3em 0;
+  text-align: center;
+  font-size: 12px;
+  color: #2d3c49;
+}
+
+.featured-work {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 2em 0 50px 0;
+}
+
+.featured-work-header {
+  width: 100%;
+  font-weight: 100;
+    font-size: 2em;
+  color: #7d97ad;
+}
+
+.feature-section {
+  width: 100%;
+  max-width: 500px;
+  padding: 0.5em;
+  margin: 0 0 1.5em 0;
+  text-align: center;
+  line-height: 0.5em;
+}
+
+.feature-picture {
+  width: 100%;
+}
+
+.feature-picture-title {
+  font-size: 20px;
+  color: #2d3c49;
+}
+
+.feature-link {
+  font-size: 12px;
+  color: #2d3c49;
+}
+
+
+/*  FOOTER  */
+
+.footer {
+  z-index: 1;
+  width: 100%;
+  padding: 0.3em 0 0.3em 0;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  background-color: #7d97ad;
+}
