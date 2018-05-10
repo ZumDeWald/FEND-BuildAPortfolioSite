@@ -19,6 +19,9 @@
     <!-- FONT -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet">
 
+    <!-- FAVICON -->
+  <link rel="shortcut icon" type="image/png" href="./imgs/ZIcon.png">
+
 </head>
 
 <body>
@@ -45,12 +48,11 @@
   <main>
 
     <figure class="hero-top">
-      <picture class="hero-image">
-        <source media="(max-width: 600px)" srcset="./imgs/legoProgrammer_Small.jpg">
-        <source media="(min-width: 601px) and (max-width: 900px)" srcset="./imgs/legoProgrammer_Medium.jpg">
-        <source media="(min-width: 901px)" srcset="./imgs/legoProgrammer_Large.jpg">
-        <img src="./imgs/legoProgrammer_Medium.jpg" alt="Lego programmer sitting at a computer">
-      </picture>
+      <img class="hero-image" alt="Lego programmer sitting at a computer"
+        srcset="./imgs/legoProgrammer_Small.jpg 600w,
+                ./imgs/legoProgrammer_Medium.jpg 1000w,"
+        source="(max-width: 600px) 600px,
+                (min-width: 601px) 900px,">
       <figcaption class="photo-credit">
         Photo credit: <em>clement127</em> via Compfight
       </figcaption>
@@ -92,6 +94,12 @@
 
   <footer class="footer">
     Copyright 2018 | ZumDeWald
+    <span class="footer-icons">
+      <img class="footer-socmedia-icon" src="./imgs/TwitLogo.svg" alt="Twitter Logo">
+      <img class="footer-socmedia-icon" src="./imgs/GHLogo.svg" alt="GitHub Logo">
+      <img class="footer-socmedia-icon" src="./imgs/LinkedinLogo.svg" alt="Linked In Logo">
+      <img class="footer-socmedia-icon" src="./imgs/CPLogo.svg" alt="Code Pen Logo">
+    </span>
   </footer>
 
 </body>
